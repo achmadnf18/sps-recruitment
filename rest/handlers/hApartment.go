@@ -1,9 +1,9 @@
 package handlers
 
 import (
+	"github.com/achmadnf18/sps-recruitment/rest/models"
 	"github.com/labstack/echo"
 	"net/http"
-	"sps-recruitment/rest/models"
 	"strconv"
 )
 

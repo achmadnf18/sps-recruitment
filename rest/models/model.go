@@ -1,7 +1,7 @@
 package models
 
 import (
-	"sps-recruitment/rest/models/db"
+	"github.com/achmadnf18/sps-recruitment/rest/models/db"
 	"strconv"
 	"strings"
 )

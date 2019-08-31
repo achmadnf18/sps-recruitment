@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/achmadnf18/sps-recruitment/rest/handlers"
 	"github.com/labstack/echo"
-	"sps-recruitment/rest/handlers"
 )
 
 func main() {

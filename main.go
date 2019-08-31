@@ -1,16 +1,16 @@
 package main
 
 import (
+	"github.com/achmadnf18/sps-recruitment/application"
 	"github.com/urfave/cli"
 	"log"
 	"os"
-	"sps-recruitment/application"
 )
 
 func main() {
 
 	clientApp := cli.NewApp()
-	clientApp.Name = "sps-recruitment"
+	clientApp.Name = "github.com/achmadnf18/sps-recruitment"
 	clientApp.Version = "0.0.1"
 	clientApp.Commands = []cli.Command{
 		{
