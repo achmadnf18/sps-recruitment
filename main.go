@@ -45,14 +45,6 @@ func main() {
 				return nil
 			},
 		},
-		//{
-		//	Name:        "subscribe",
-		//	Description: "start subscriber",
-		//	Action: func(c *cli.Context) error {
-		//		daemon := app.NewSubscriberDaemon()
-		//		return application.AppRunner(daemon)
-		//	},
-		//},
 	}
 
 	err := clientApp.Run(os.Args)
