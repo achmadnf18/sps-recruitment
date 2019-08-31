@@ -2,7 +2,7 @@
 
 ## Install
 
-    go get -u github.com/achmadnf18/github.com/achmadnf18/sps-recruitment
+    go get -u github.com/achmadnf18/sps-recruitment
     
 ## Run Makefile
     cd $GOPATH/PATH_TO_PROJECT/
