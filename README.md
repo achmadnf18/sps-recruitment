@@ -4,6 +4,15 @@
 
     go get -u github.com/achmadnf18/sps-recruitment
     
+## Restore Database
+    sudo su - postgres
+    createuser spacestock
+    createdb spacestock
+    psql -c "GRANT ALL PRIVILEGES ON DATABASE spacestock TO spacestock;"
+    exit
+    cd $GOPATH/PATH_TO_PROJECT/rest/ 
+    psql -U spacestock spacestock < models/migrations/spacestock_bak.sql
+    
 ## Run Makefile
     cd $GOPATH/PATH_TO_PROJECT/
     make setup
